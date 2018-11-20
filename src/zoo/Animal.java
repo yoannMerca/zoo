@@ -4,9 +4,9 @@ abstract class Animal {
 	
 		protected String nom;
 		protected  String type;
-		static  final String ALIMENT_CARNIVORE = "carnivore";
-		static  final String ALIMENT_HERBIVORE = "herbivore";
-		static  final String ALIMENT_OMNIVORE = "omnivore";
+		public static  final String ALIMENT_CARNIVORE = "carnivore";
+		public static  final String ALIMENT_HERBIVORE = "herbivore";
+		public static  final String ALIMENT_OMNIVORE = "omnivore";
 		protected String regimeAlimentaire;
 		
 		protected Animal(String nom, String type, String alimentation) {
@@ -40,6 +40,11 @@ abstract class Animal {
 
 		protected void setType(String type) {
 			this.type = type;
+		}
+
+		@Override
+		public String toString() {
+			return "Animal [nom=" + nom + ", type=" + type + ", regimeAlimentaire=" + regimeAlimentaire + "]";
 		}
 		
 		 
