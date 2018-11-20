@@ -59,7 +59,7 @@ public class Zoo {
 
 	@Override
 	public String toString() {
-		return "Zoo [nom=" + nom + ", zones=" + Arrays.toString(zones) + "]";
+		return "le Zoo =>" + nom + ", zones=" + Arrays.toString(zones) ;
 	}
 
 }

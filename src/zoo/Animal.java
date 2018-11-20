@@ -44,7 +44,7 @@ abstract class Animal {
 
 		@Override
 		public String toString() {
-			return "Animal [nom=" + nom + ", type=" + type + ", regimeAlimentaire=" + regimeAlimentaire + "]";
+			return nom + " est un animal de type=>" + type + ", et il est " + regimeAlimentaire ;
 		}
 		
 		 

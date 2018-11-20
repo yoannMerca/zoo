@@ -17,7 +17,7 @@ public class Zone {
 	@Override
 	public String toString() {
 		
-		return "Zone [nom=" + nom + ", animals=" + Arrays.toString(animals) + "]\n\r";
+		return "Zone " + nom + ", " + Arrays.toString(animals) + "\n\r";
 	}
 
 	public String getNom() {
